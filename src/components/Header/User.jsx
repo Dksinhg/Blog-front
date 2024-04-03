@@ -52,26 +52,36 @@ const User = () => {
                     <h4> Create Post</h4>
                   </button>
                 </Link>
+                <Link to="/myaccount"> 
                 <button className="box">
                   <IoSettingsOutline className="icon" />
                   <h4> My Account</h4>
                 </button>
+                </Link>
+                <Link to="/order">
                 <button className="box">
                   <BsBagCheck className="icon" />
                   <h4> My order</h4>
                 </button>
+                </Link>
+                <Link to="/wishlist">
                 <button className="box">
                   <AiOutlineHeart className="icon" />
                   <h4> Wishlist </h4>
                 </button>
+                </Link>
+                <Link to="/help">
                 <button className="box">
                   <GrHelpBook className="icon" />
                   <h4> help </h4>
                 </button>
+                </Link>
+                <Link to="/logout">
                 <button className="box">
                   <FiLogOut className="icon" />
                   <h4> logout </h4>
                 </button>
+                </Link>
               </div>
             )}
           </>
