@@ -31,7 +31,7 @@ const User = () => {
             </button>
             {profileOpen && (
               <div className="openProfile boxItems" onClick={close}>
-                <Link to="account">
+                <Link to="/account">
                   <div className="image">
                     <div className="img">
                       <img
@@ -52,7 +52,7 @@ const User = () => {
                     <h4> Create Post</h4>
                   </button>
                 </Link>
-                <Link to="/myaccount"> 
+                <Link to="/account"> 
                 <button className="box">
                   <IoSettingsOutline className="icon" />
                   <h4> My Account</h4>
@@ -64,7 +64,7 @@ const User = () => {
                   <h4> My order</h4>
                 </button>
                 </Link>
-                <Link to="/wishlist">
+                <Link to="Wishlist">
                 <button className="box">
                   <AiOutlineHeart className="icon" />
                   <h4> Wishlist </h4>
