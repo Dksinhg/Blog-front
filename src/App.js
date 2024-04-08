@@ -34,7 +34,7 @@ function App() {
             <Route exact path="/create" element={<Create />} />
             <Route exact path="/account" element={<Account />} />
             <Route exact path="/order" element={<Order />} />
-            <Route exact path="/Wishlist" element={<Wishlist />} />
+            <Route exact path="/wishlist" element={<Wishlist />} />
             <Route exact path="/help" element={<Help />} />
             <Route exact path="/logout" element={<Logout />} />
             

@@ -1,6 +1,8 @@
 const Wishlist = () => {
     return (
-        Wishlist 
+        <>
+         Wishlist
+        </>
     );
 }
 
