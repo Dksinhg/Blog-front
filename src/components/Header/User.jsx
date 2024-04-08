@@ -64,7 +64,7 @@ const User = () => {
                   <h4> My order</h4>
                 </button>
                 </Link>
-                <Link to="Wishlist">
+                <Link to="/wishlist">
                 <button className="box">
                   <AiOutlineHeart className="icon" />
                   <h4> Wishlist </h4>
