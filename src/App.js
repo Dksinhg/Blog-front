@@ -8,7 +8,12 @@ import About from "./pages/page/About";
 import Pages from "./pages/page/Pages";
 import Blog from "./pages/page/Blog";
 import Contact from "./pages/page/Contact";
-
+import Create from "./components/Accounts/Create";
+import Account from "./components/Accounts/Account";
+import Order from "./components/Accounts/Order";
+import Wishlist from "./components/Accounts/Wishlist";
+import Help from "./components/Accounts/Help";
+import Logout from "./components/Accounts/Logout";
 
 
 function App() {
@@ -24,6 +29,15 @@ function App() {
             <Route exact path="/pages" element={<Pages />} />
             <Route exact path="/blog" element={<Blog />} />
             <Route exact path="/contact" element={<Contact />} />
+
+            {/* <-------------Account------------------> */}
+            <Route exact path="/create" element={<Create />} />
+            <Route exact path="/account" element={<Account />} />
+            <Route exact path="/order" element={<Order />} />
+            <Route exact path="/Wishlist" element={<Wishlist />} />
+            <Route exact path="/help" element={<Help />} />
+            <Route exact path="/logout" element={<Logout />} />
+            
           </Routes>
         </switch>
       </Router>

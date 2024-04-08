@@ -15,12 +15,12 @@ export const nav = [
     url: "/pages",
   },
   {
-    id: 3,
+    id: 4,
     text: "blog",
     url: "/blog",
   },
   {
-    id: 3,
+    id: 5,
     text: "contact",
     url: "/contact",
   },
